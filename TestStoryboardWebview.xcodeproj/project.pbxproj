@@ -15,6 +15,7 @@
 		30FE9FB02608517E00D241DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FE9FAE2608517E00D241DD /* LaunchScreen.storyboard */; };
 		30FE9FBB2608517F00D241DD /* TestStoryboardWebviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FE9FBA2608517F00D241DD /* TestStoryboardWebviewTests.swift */; };
 		30FE9FC62608517F00D241DD /* TestStoryboardWebviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FE9FC52608517F00D241DD /* TestStoryboardWebviewUITests.swift */; };
+		30FE9FD8260854E200D241DD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FE9FD7260854E200D241DD /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		30FE9FC12608517F00D241DD /* TestStoryboardWebviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestStoryboardWebviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FE9FC52608517F00D241DD /* TestStoryboardWebviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStoryboardWebviewUITests.swift; sourceTree = "<group>"; };
 		30FE9FC72608517F00D241DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FE9FD7260854E200D241DD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FE9FD8260854E200D241DD /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				30FE9FB92608517F00D241DD /* TestStoryboardWebviewTests */,
 				30FE9FC42608517F00D241DD /* TestStoryboardWebviewUITests */,
 				30FE9FA12608517A00D241DD /* Products */,
+				30FE9FD6260854E200D241DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				30FE9FC72608517F00D241DD /* Info.plist */,
 			);
 			path = TestStoryboardWebviewUITests;
+			sourceTree = "<group>";
+		};
+		30FE9FD6260854E200D241DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30FE9FD7260854E200D241DD /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
